@@ -1,0 +1,123 @@
+ body{
+            margin: 0;
+            padding: 0;
+            background: url(bg.jpg);
+            background-size: cover;
+            font-family: sans-serif;
+        }
+.form-group option{
+    background: black;
+}
+
+
+        .wrapper{
+       /*   position: absolute;
+          left:150px;
+            width: 1000px;
+            margin: 0 auto;
+        */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 1900px;
+    padding: 500px 30px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.7);
+    border-radius: 20px;
+    border:1pt #fff;
+}
+h3
+{
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 20px;
+    color: #efed40;
+    text-align: center;
+}
+label
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.link
+{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #efed40;
+    text-align: center;
+    text-decoration: none;
+}
+
+.wrapper input
+{
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+} 
+.tgp
+{
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+::placeholder
+{
+    color: rgba(255,255,255,.5)
+}
+
+.wrapper input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.wrapper input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+
+input[type="button"]
+{
+    position: absolute;
+    top: 30px;
+    left:20px;
+    border: none;
+    outline: none;
+    height: 80px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type="button"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
